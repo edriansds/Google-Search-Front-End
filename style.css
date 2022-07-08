@@ -1,0 +1,228 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+    min-width: 400px;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+
+
+
+.nav-bar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 6px;
+    height: 48px;
+}
+
+.nav-items {
+    padding-right: 16px;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+div.image {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 43px;
+}
+
+
+.search-area {
+    padding: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+}
+
+.search-bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.search-bar:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+    font-size: 16px;
+}
+
+.search-buttons {
+    padding-top: 18px;
+    height: 70px;
+    display: block;
+    text-align: center;
+}
+
+.search-buttons input[type='submit']{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.search-buttons input[type='submit']:hover {
+    box-shadow: 0px 1px 5px -1px rgb(133, 133, 133);
+}
+
+/*
+    Image search
+*/
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.legend {
+    position: absolute;
+    bottom: 8px;
+    right: 2px;
+    color: #4285f4;
+}
+
+/*
+    Advanced search
+*/
+
+.nav-bar-adv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    height: 48px;
+}
+
+
+.min-logo {
+    height: 24px;
+    padding-left: 12px;
+    margin-top: 5px;
+}
+
+.app-bar {
+    color: #d93025;
+    font-size: 20px;
+    padding: 25px 35px;
+    border-bottom: 1px solid #ebebeb
+}
+
+.form-area {
+    margin: 40px;
+}
+
+span {
+    display: inline-block;
+    height: 42px;
+}
+
+.parameter label {
+    min-width: 167px;
+    display: inline-block;
+    font-size: 13px;
+    height: 41px;
+    vertical-align: top;
+}
+
+.parameter input {
+    width: 60%;
+    min-width: 167px;
+    max-width: 600px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    padding: 1px 8px;
+    height: 25px;
+}
+
+.parameter input:focus-within {
+    border: 1px solid #437ff0;
+    box-shadow: inset 1px 1px 8px #dcdcdc;
+    outline: none;
+}
+
+.adv-search-button input {
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    box-shadow: none;
+    background-color: #4d90fe;;
+    border: 1px solid #3079ed;
+    color: #fff;
+    padding: 0 12px;
+    font-size: 11px;
+    border-radius: 2px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.adv-search-button input:hover {
+    background-image: -webkit-linear-gradient(top,#4d90fe,#3079ed);
+    border:1px solid #4787ff;
+}
+
+.adv-search-button input:active {
+    background: #437ff0;
+    border: 1px solid #1f69f1;
+}
